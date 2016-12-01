@@ -29,6 +29,8 @@ layout: default
 </div>
 {% endif %}
 
+{% include comments.html %}
+
 <div class="post-share">
   <div class="container">
     <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}" target="_blank" class="post-share-icon twitter"></a>
